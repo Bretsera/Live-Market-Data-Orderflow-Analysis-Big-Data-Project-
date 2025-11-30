@@ -524,7 +524,6 @@ market-data-pipeline/
 ├── tick_to_hdfs.py           # Spark: persist raw ticks to HDFS
 ├── candle_to_hdfs.py         # Spark: persist candles to HDFS
 ├── data_plotter.py           # Dash: real-time dashboard
-├── run_pipeline.py           # Orchestration script (optional)
 │
 ├── README.md                 # This file
 ├── ARCHITECTURE.md           # Detailed technical design
@@ -534,29 +533,6 @@ market-data-pipeline/
     └── TROUBLESHOOTING.md    # Extended debugging
 ```
 
----
-
-## 📊 Files to Upload to GitHub
-
-**✅ Include:**
-- `docker-compose.yml` - Service configuration
-- `Dockerfile` - Container image
-- `requirements.txt` - Python dependencies
-- `*.py` - All Python source files (7 files)
-- `README.md` - This documentation
-- `.gitignore` - Exclude sensitive files
-- `LICENSE` - MIT or your choice
-- `docs/` - Additional documentation
-
-**❌ Exclude (add to .gitignore):**
-- `.env` - Contains API tokens
-- `hadoop-data/` - Local HDFS storage
-- `__pycache__/` - Python cache
-- `.DS_Store` - macOS files
-- `*.log` - Log files
-- `.vscode/` - IDE files
-
----
 
 ## 📈 Performance Metrics
 
