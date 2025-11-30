@@ -1,0 +1,15 @@
+confluent-kafka==2.3.0
+numpy==1.26.4
+pandas==2.1.4
+plotly==5.17.0
+dash==2.14.2
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-table==5.0.0
+flask==2.3.3
+flask-cors==4.0.0
+werkzeug==2.3.7
+pyspark==3.5.1
+upstox-python-sdk
+python-dotenv==1.0.0
+pytz==2024.1
