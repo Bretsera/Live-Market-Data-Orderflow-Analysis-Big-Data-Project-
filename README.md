@@ -617,8 +617,8 @@ This project is licensed under the MIT License - see LICENSE file for details.
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@y](https://github.com/yourusername)
+- Email: efremcharls777@gmail.com
 
 ---
 
