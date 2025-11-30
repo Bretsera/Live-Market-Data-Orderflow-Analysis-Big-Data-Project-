@@ -512,25 +512,26 @@ candles_buffer = deque(maxlen=50)  # Reduce from 100
 ## 📁 Project Structure
 
 ```
-market-data-pipeline/
-├── Dockerfile                 # Container image definition
-├── docker-compose.yml         # Service orchestration (UPDATED)
-├── requirements.txt           # Python dependencies
-├── .env                       # Configuration (create this)
-├── .gitignore                 # Git ignore patterns
+📚 market-data-pipeline/
+├── 📄 Dockerfile                 # Container image definition
+├── 📄 docker-compose.yml         # Service orchestration (UPDATED)
+├── 📄 requirements.txt           # Python dependencies
+├── 📄 .env                       # Configuration (create this)
+├── 📄 .gitignore                 # Git ignore patterns
 │
-├── data_streamer.py          # Upstox WebSocket consumer → Kafka producer
-├── data_processor.py         # Spark: tick aggregation, order flow analysis
-├── tick_to_hdfs.py           # Spark: persist raw ticks to HDFS
-├── candle_to_hdfs.py         # Spark: persist candles to HDFS
-├── data_plotter.py           # Dash: real-time dashboard
+├── 🐍 data_streamer.py          # Upstox WebSocket consumer → Kafka producer
+├── 🐍 data_processor.py         # Spark: tick aggregation, order flow analysis
+├── 🐍 tick_to_hdfs.py           # Spark: persist raw ticks to HDFS
+├── 🐍 candle_to_hdfs.py         # Spark: persist candles to HDFS
+├── 🐍 data_plotter.py           # Dash: real-time dashboard
+├── 🐍 run_pipeline.py           # Pipeline orchestrator
 │
-├── README.md                 # This file
-├── ARCHITECTURE.md           # Detailed technical design
-└── docs/
-    ├── API_REFERENCE.md      # Upstox API details
-    ├── DEPLOYMENT.md         # Production deployment guide
-    └── TROUBLESHOOTING.md    # Extended debugging
+├── 📄 README.md                 # This file
+├── 📄 ARCHITECTURE.md           # Detailed technical design
+└── 📚 docs/
+    ├── 📄 API_REFERENCE.md      # Upstox API details
+    ├── 📄 DEPLOYMENT.md         # Production deployment guide
+    └── 📄 TROUBLESHOOTING.md    # Extended debugging
 ```
 
 
