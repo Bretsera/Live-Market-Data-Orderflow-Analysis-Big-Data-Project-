@@ -594,7 +594,7 @@ This project is licensed under the MIT License - see LICENSE file for details.
 ## 👤 Author
 
 **Your Name**
-- GitHub: [https://github.com/yourusername](https://github.com/Bretsera)
+- GitHub: [https://github.com/Bretsera](https://github.com/Bretsera)
 - Email: efremcharls777@gmail.com
 
 ---
